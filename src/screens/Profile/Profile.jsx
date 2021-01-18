@@ -5,6 +5,7 @@ import Back from '../../components/Back/Back';
 import Select from "../../components/Select/Select";
 import { Link } from "react-router-dom";
 import photo from "../../images/no_photo.jpg";
+import DatePicker from "../../components/DatePicker/DatePicker";
 
 const Profile = () => {
     return (
@@ -28,7 +29,8 @@ const Profile = () => {
                     <Input label='Отчество*' type='text' valid />
                 </div>
                 <div className={css.formInput}>
-                    <Input label='Дата рождения*' type='date' valid />
+                    <DatePicker label='Дата рождения*' type='date' valid
+                        name="dateOfBirth" />
                 </div>
                 <div className={css.formInput}>
                     <Input label='Номер телефона*' type='number' valid />

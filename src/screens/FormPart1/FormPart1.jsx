@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, /* useEffect */ } from "react";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
 import Input from "../../components/Input/Input";
 import css from './FormPart1.module.css';
 import Back from '../../components/Back/Back';
 import Select from "../../components/Select/Select";
-import request from '../../request'
+// import request from '../../request'
 import DatePicker from "../../components/DatePicker/DatePicker";
 
 
@@ -38,9 +38,9 @@ const Enter = () => {
     //     console.log(dataFolk);
     // }
 
-    const submit = () => {
-        console.log(lastName, firstName, patronymic, phone, code, email, password, role, institute)
-    }
+    // const submit = () => {
+    //     console.log(lastName, firstName, patronymic, phone, code, email, password, role, institute)
+    // }
 
     return (
         <div className={css.base_container}>
@@ -112,7 +112,6 @@ const Enter = () => {
             <div className={css.enterBtn}>
                 <Button to='/formPart2'>Далее</Button>
             </div>
-            <button style={{ width: 300, height: 200 }} onClick={submit}>knopka</button>
         </div>
     )
 }

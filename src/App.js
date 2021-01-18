@@ -3,7 +3,7 @@ import './App.css';
 import EnterFin from './screens/Enter_Fin/EnterFin';
 import Enter from './screens/Enter/Enter';
 import FormPart1 from './screens/FormPart1/FormPart1';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import FormPart2 from './screens/FormPart2/FormPart2';
 import FormPart3 from './screens/FormPart3/FormPart3';
 import Success from './screens/Success/Success';

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 const get = async (api) => {
     const f = await fetch("http://78.140.15.84:8080/" + api)
     const json = await f.json()
