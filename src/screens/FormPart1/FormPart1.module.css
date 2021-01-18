@@ -1,0 +1,65 @@
+.header {
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 38px;
+    color: #2C2C2C;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.inputs {
+    margin-bottom: 15px;
+}
+
+.formInput{
+    margin-bottom: 15px;
+    
+}
+
+.formSelect{
+    margin-bottom: 15px;
+}
+
+.enterBtn {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.buttons
+{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #828088;
+}
+
+.buttons:visited {
+    text-decoration: none;
+    color: #828088;
+}
+
+.numberBtn {
+    display: inline-block;
+    text-decoration: none;
+    width: 306px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #2C2C2C;
+    color: #fff;
+    box-shadow: 0px 2px 4px rgba(138, 149, 158, 0.2);
+    border-radius: 5px 30px 30px 30px;
+    letter-spacing: 0.38px;
+    margin-bottom: 10px;
+}
+
+.numberBtn:visited {
+    text-decoration: none;
+    color: #fff;
+}

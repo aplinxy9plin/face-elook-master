@@ -1,0 +1,64 @@
+.header {
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 38px;
+    color: #2C2C2C;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.my_profile {
+    display: inline-flex;
+}
+
+.inputs {
+    margin-bottom: 15px;
+}
+
+.formInput{
+    margin-bottom: 10px;
+}
+
+.formSelect{
+    margin-bottom: 15px;
+}
+
+.photo {
+    margin-top: 11px;
+    margin-left: 35px;
+    width: 66px;
+    height: 66px;
+    border-radius: 128px;
+    margin-bottom: 12px;
+}
+
+.update {
+    margin-bottom: 16px;
+    margin-left: 55px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #828088;
+    text-decoration: none;
+}
+
+.update:visited , .update_pass:visited{
+     color: #828088;
+    text-decoration: none;  
+}
+
+.update_pass {
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #828088;
+    text-decoration: none;
+    margin-top: 28px;
+    margin-bottom: 71px;
+}

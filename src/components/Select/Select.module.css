@@ -1,0 +1,46 @@
+.select{
+    appearance: none;
+    position: relative;
+    width: 340px;
+    height: 60px;
+    background: #F2F2F2;
+    border-radius: 26px 26px 5px 26px;
+    border: none;
+    padding-top: 28px;
+    padding-left: 16px;
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #2C2C2C;
+}
+
+.select:focus{
+  outline: none;
+}
+
+.select_container{
+    display: block;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    height: 12px;
+    left: 32px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    margin-top: 8px;
+  }
+
+  .select_icon {
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    width: 14px;
+    height: 14px;
+  }

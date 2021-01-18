@@ -1,0 +1,64 @@
+.base_container {
+    margin-top: 50px;
+}
+
+.header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.41px;
+    color: #247ABF;
+}
+
+.image {
+   margin: 25px;
+}
+
+.log_in {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828088;
+    margin-top: 66px;
+}
+
+.log_in_with {
+    display: block;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.log_in_with:visited {
+    text-decoration: none;
+    color: #828088;
+}
+
+.regBtn {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 24px;
+    color: #2C2C2C;
+    text-decoration: none;
+}
+
+.regBtn:visited{
+    text-decoration: none;
+    color: #2C2C2C;
+}
+
+.enterBtn {
+    padding: 36px;
+}
+
+.sber_icon {
+    margin-right: 8px;
+    margin-bottom: 26px;
+}
+
+.log_in_cber {
+    display: inline-flex;
+}

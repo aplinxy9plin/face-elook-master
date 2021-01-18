@@ -1,0 +1,60 @@
+.header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2C2C2C;
+    margin-bottom: 47px;
+    margin-top: 38px;
+}
+
+.image {
+   width: 276px;
+   height: 276px;
+   border-radius: 128px;
+   margin-bottom: 23px;
+}
+
+.buttons
+{
+    display: inline-block;
+    text-decoration: none;
+    width: 306px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #2C2C2C;
+    color: #fff;
+    box-shadow: 0px 2px 4px rgba(138, 149, 158, 0.2);
+    border-radius: 5px 30px 30px 30px;
+    letter-spacing: 0.38px;
+    margin-bottom: 10px;
+}
+
+.buttons:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nextBtn {
+    margin-top: 64px;
+    font-size: 18px;
+}
+
+.label {
+    margin-left: 33px;
+    margin-right: 33px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #828088;
+    margin-bottom: 28px;
+}
+
+.ok_icon {
+    width: 49px;
+    height: 49px;
+}
+
+

@@ -1,0 +1,32 @@
+.header {
+    margin-top: 109px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 38px;
+    color: #2C2C2C;
+    margin-bottom: 8px;
+}
+
+.label1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    color: #2C2C2C;
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-bottom: 104px;
+}
+
+.label2 {
+    margin-left: 42px;
+    margin-right: 42px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2C2C2C;
+    margin-bottom: 18px;
+}
+
+

@@ -1,0 +1,53 @@
+.header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2C2C2C;
+    margin-bottom: 47px;
+    margin-top: 38px;
+}
+
+.image {
+   width: 276px;
+   height: 276px;
+   border-radius: 128px;
+   margin-bottom: 28px;
+}
+
+.button
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #828088;
+    text-decoration: none;
+}
+
+.button:visited {
+    color: #828088;
+    text-decoration: none;
+}
+
+.nextBtn {
+    margin-top: 60px;
+    font-size: 18px;
+    margin-bottom: 19px;
+}
+
+.label {
+    margin-left: 33px;
+    margin-right: 33px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #828088;
+    margin-bottom: 28px;
+}
+
+.ok_icon {
+    width: 49px;
+    height: 49px;
+}
+
